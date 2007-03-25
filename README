@@ -3,7 +3,7 @@ perl-ExtUtils-ParseXS
 Converts Perl XS code into C code.
 
 Runtime requirements:
-  cygwin-1.5.22-1
+  cygwin-1.5.24-2
   perl-5.8.7-5
   perl-ExtUtils-CBuilder-0.15-1
 
@@ -16,15 +16,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-ExtUtils-ParseXS-2.17-X-src.tar.bz2
+  unpack perl-ExtUtils-ParseXS-2.18-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-ExtUtils-ParseXS-2.17-X.cygport all
+  cygport ./perl-ExtUtils-ParseXS-2.18-X.cygport all
 
 This will create:
-  /usr/src/perl-ExtUtils-ParseXS-2.17-X-src.tar.bz2
-  /usr/src/perl-ExtUtils-ParseXS-2.17-X.tar.bz2
+  /usr/src/perl-ExtUtils-ParseXS-2.18-X-src.tar.bz2
+  /usr/src/perl-ExtUtils-ParseXS-2.18-X.tar.bz2
 
 -------------------------------------------
 
@@ -32,15 +32,18 @@ Files included in the binary package:
 
   /usr/lib/perl5/vendor_perl/5.8/ExtUtils/ParseXS.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/ExtUtils/ParseXS/.packlist
-  /usr/share/doc/Cygwin/perl-ExtUtils-ParseXS-2.17.README
-  /usr/share/doc/perl-ExtUtils-ParseXS-2.17/Changes
-  /usr/share/doc/perl-ExtUtils-ParseXS-2.17/INSTALL
-  /usr/share/doc/perl-ExtUtils-ParseXS-2.17/README
+  /usr/share/doc/Cygwin/perl-ExtUtils-ParseXS-2.18.README
+  /usr/share/doc/perl-ExtUtils-ParseXS-2.18/Changes
+  /usr/share/doc/perl-ExtUtils-ParseXS-2.18/INSTALL
+  /usr/share/doc/perl-ExtUtils-ParseXS-2.18/README
   /usr/share/man/man3/ExtUtils.ParseXS.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 2.18-1 -----
+Version bump.
 
 ----- version 2.17-1 -----
 Version bump.

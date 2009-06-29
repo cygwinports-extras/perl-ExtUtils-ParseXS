@@ -1,4 +1,4 @@
 category: Perl Devel
-requires: cygwin perl perl-ExtUtils-CBuilder
+requires: perl perl-ExtUtils-CBuilder
 sdesc: "Converts Perl XS code into C code"
 ldesc: "Perl module which converts Perl XS code into C code"

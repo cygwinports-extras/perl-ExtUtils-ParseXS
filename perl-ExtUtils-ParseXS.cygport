@@ -1,0 +1,9 @@
+CPAN_AUTHOR=smueller
+inherit perl
+
+NAME="perl-ExtUtils-ParseXS"
+VERSION=3.18
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Converts Perl XS code into C code"
+DESCRIPTION="Perl module which converts Perl XS code into C code"

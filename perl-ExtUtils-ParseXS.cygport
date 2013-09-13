@@ -2,7 +2,7 @@ CPAN_AUTHOR=smueller
 inherit perl
 
 NAME="perl-ExtUtils-ParseXS"
-VERSION=3.18
+VERSION=3.22
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Converts Perl XS code into C code"
